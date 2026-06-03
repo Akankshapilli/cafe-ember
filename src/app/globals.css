@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+@theme {
+  --color-ember-dark: #0e221a;
+  --color-ember-emerald: #173126;
+  --color-ember-emerald-light: #254738;
+
+  --color-ember-beige: #f5efe6;
+  --color-ember-beige-dark: #e7dccd;
+
+  --color-ember-gold: #c9a96e;
+  --color-ember-gold-light: #d8bb86;
+
+  --color-ember-muted: #6f7b74;
+
+  --radius-luxury: 36px;
+  --radius-panel: 28px;
+  --radius-card: 42px;
+
+  --shadow-ember:
+    0 10px 40px rgba(0, 0, 0, 0.08), 0 25px 80px rgba(0, 0, 0, 0.12);
+
+  --shadow-gold:
+    0 10px 30px rgba(201, 169, 110, 0.15), 0 20px 60px rgba(201, 169, 110, 0.08);
+}

@@ -1,0 +1,290 @@
+/* ========================================================= */
+/* Café Ember Effects System */
+/* ========================================================= */
+
+/* ============================= */
+/* Glass Panels */
+/* ============================= */
+
+.glass-panel {
+  background: rgba(255, 255, 255, 0.06);
+
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.glass-panel-dark {
+  background: rgba(14, 34, 26, 0.72);
+
+  backdrop-filter: blur(24px);
+  -webkit-backdrop-filter: blur(24px);
+
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+/* ============================= */
+/* Cinematic Overlays */
+/* ============================= */
+
+.cinematic-overlay-dark {
+  position: absolute;
+  inset: 0;
+
+  background: linear-gradient(
+    to top,
+    rgba(14, 34, 26, 0.92),
+    rgba(14, 34, 26, 0.15),
+    transparent
+  );
+}
+
+.cinematic-overlay-soft {
+  position: absolute;
+  inset: 0;
+
+  background: linear-gradient(to top, rgba(14, 34, 26, 0.72), transparent);
+}
+
+.cinematic-overlay-left {
+  position: absolute;
+  inset: 0;
+
+  background: linear-gradient(to left, transparent, rgba(14, 34, 26, 0.65));
+}
+
+.cinematic-overlay-right {
+  position: absolute;
+  inset: 0;
+
+  background: linear-gradient(to right, transparent, rgba(14, 34, 26, 0.65));
+}
+
+/* ============================= */
+/* Premium Shadows */
+/* ============================= */
+
+.ember-shadow {
+  box-shadow:
+    0 10px 40px rgba(0, 0, 0, 0.08),
+    0 25px 80px rgba(0, 0, 0, 0.12);
+}
+
+.gold-shadow {
+  box-shadow:
+    0 10px 30px rgba(201, 169, 110, 0.15),
+    0 20px 60px rgba(201, 169, 110, 0.08);
+}
+
+.soft-shadow {
+  box-shadow:
+    0 8px 24px rgba(0, 0, 0, 0.05),
+    0 16px 48px rgba(0, 0, 0, 0.08);
+}
+
+/* ============================= */
+/* Gold Glow */
+/* ============================= */
+
+.gold-glow {
+  position: absolute;
+
+  background: rgba(201, 169, 110, 0.12);
+
+  filter: blur(120px);
+  border-radius: 9999px;
+
+  pointer-events: none;
+}
+
+.gold-glow-soft {
+  position: absolute;
+
+  background: rgba(201, 169, 110, 0.08);
+
+  filter: blur(160px);
+  border-radius: 9999px;
+
+  pointer-events: none;
+}
+
+/* ============================= */
+/* Gradient Text */
+/* ============================= */
+
+.gold-gradient-text {
+  background: linear-gradient(135deg, #f6dfb2 0%, #c9a96e 45%, #9e7d44 100%);
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  background-clip: text;
+  color: transparent;
+}
+
+/* ============================= */
+/* Luxury Borders */
+/* ============================= */
+
+.luxury-border {
+  border: 1px solid rgba(201, 169, 110, 0.18);
+}
+
+.soft-border {
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.dark-border {
+  border: 1px solid rgba(23, 49, 38, 0.08);
+}
+
+/* ============================= */
+/* Noise Texture */
+/* ============================= */
+
+.noise-texture {
+  position: absolute;
+  inset: 0;
+
+  opacity: 0.04;
+
+  pointer-events: none;
+
+  background-image: url("/images/textures/texture-vintage-noise.png");
+  background-size: cover;
+  background-position: center;
+}
+
+/* ============================= */
+/* Image Hover */
+/* ============================= */
+
+.image-hover {
+  transition:
+    transform 700ms ease,
+    filter 700ms ease;
+}
+
+.image-hover:hover {
+  transform: scale(1.05);
+}
+
+/* ============================= */
+/* Luxury Cards */
+/* ============================= */
+
+.luxury-card {
+  overflow: hidden;
+
+  border-radius: 36px;
+
+  transition:
+    transform 500ms ease,
+    box-shadow 500ms ease;
+}
+
+.luxury-card:hover {
+  transform: translateY(-8px);
+
+  box-shadow:
+    0 20px 60px rgba(0, 0, 0, 0.08),
+    0 35px 90px rgba(0, 0, 0, 0.1);
+}
+
+/* ============================= */
+/* Premium Buttons */
+/* ============================= */
+
+.gold-button {
+  background: #c9a96e;
+  color: #0e221a;
+
+  transition:
+    transform 300ms ease,
+    background 300ms ease;
+}
+
+.gold-button:hover {
+  transform: scale(1.03);
+  background: #d8bb86;
+}
+
+.outline-button {
+  border: 1px solid rgba(255, 255, 255, 0.15);
+
+  background: rgba(255, 255, 255, 0.05);
+
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+
+  transition:
+    background 300ms ease,
+    border-color 300ms ease;
+}
+
+.outline-button:hover {
+  background: rgba(255, 255, 255, 0.1);
+  border-color: rgba(201, 169, 110, 0.4);
+}
+
+/* ============================= */
+/* Section Fades */
+/* ============================= */
+
+.section-fade-bottom {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+
+  width: 100%;
+  height: 180px;
+
+  background: linear-gradient(to top, #0e221a, transparent);
+}
+
+.section-fade-top {
+  position: absolute;
+  left: 0;
+  top: 0;
+
+  width: 100%;
+  height: 180px;
+
+  background: linear-gradient(to bottom, #0e221a, transparent);
+}
+
+/* ============================= */
+/* Scrollbar */
+/* ============================= */
+
+.ember-scrollbar::-webkit-scrollbar {
+  width: 8px;
+}
+
+.ember-scrollbar::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0.04);
+}
+
+.ember-scrollbar::-webkit-scrollbar-thumb {
+  background: rgba(201, 169, 110, 0.5);
+  border-radius: 9999px;
+}
+
+.ember-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: rgba(201, 169, 110, 0.8);
+}
+
+/* ============================= */
+/* Backdrop Utilities */
+/* ============================= */
+
+.backdrop-luxury {
+  backdrop-filter: blur(24px);
+  -webkit-backdrop-filter: blur(24px);
+}
+
+.backdrop-soft {
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+}
