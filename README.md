@@ -1,6 +1,6 @@
 # Café Ember — Luxury Hospitality Experience Platform
 
-![Café Ember](public/images/og-image.png)
+![Café Ember](public/images/hero/hero-main.png)
 
 [![Live Site](https://img.shields.io/badge/Live%20Site-café--ember.vercel.app-C9A96E?style=for-the-badge&logo=vercel&logoColor=white)](https://cafe-ember.vercel.app)
 [![Next.js](https://img.shields.io/badge/Next.js-15-black?style=for-the-badge&logo=next.js)](https://nextjs.org)
@@ -28,13 +28,13 @@ Every design decision — typography, colour, motion, layout — serves the bran
 
 ## Features
 
-- 🎬 **Cinematic Hero** — Full-screen immersive entrance with Framer Motion animations
-- 🎨 **Brand Identity** — Custom visual identity system: palette, typography, iconography
-- 📖 **Storytelling Layout** — Editorial scroll sections that narrate the brand story
-- ✨ **Micro-interactions** — Subtle hover states, reveals, and transitions throughout
-- 📱 **Mobile-First** — Fully responsive with touch-optimised interactions
-- 🛒 **Conversion Focus** — Menu, reservations, and CTAs designed for action
-- 🖼️ **Immersive Visuals** — Full-bleed imagery with scroll-triggered parallax effects
+* 🎬 **Cinematic Hero** — Full-screen immersive entrance with Framer Motion animations
+* 🎨 **Brand Identity** — Custom visual identity system: palette, typography, iconography
+* 📖 **Storytelling Layout** — Editorial scroll sections that narrate the brand story
+* ✨ **Micro-interactions** — Subtle hover states, reveals, and transitions throughout
+* 📱 **Mobile-First** — Fully responsive with touch-optimised interactions
+* 🛒 **Conversion Focus** — Menu, reservations, and CTAs designed for action
+* 🖼️ **Immersive Visuals** — Full-bleed imagery with scroll-triggered parallax effects
 
 ---
 
